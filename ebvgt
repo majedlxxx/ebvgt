@@ -1,0 +1,7 @@
+#!/bin/bash
+loc=$(pwd)
+cd
+cd ebvgt
+sudo python3 generator.py
+cp vv.py $loc
+python3 commander.py
